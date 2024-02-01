@@ -18,6 +18,8 @@ pipeline {
 			steps {
 				echo "Deploying..."
 				cat welcome.txt
+				apt-get update
+				apt-get install cat
 			}
 		}
 	}
