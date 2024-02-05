@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo date
+echo "Hey Jenkins"
